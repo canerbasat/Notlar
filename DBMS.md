@@ -113,9 +113,10 @@ Bu EF Code-First API'nin güzelliğidir. Bağlam sınıfınızın temel yapıcı
 Ayrıca bu veritabanında, yukarıda tanımlanan Öğrenci ve Sınıf alan sınıflarına dayalı `Öğrenci` ve `Sınıf` olmak üzere iki tablo oluşturdu.
 
 ![enter image description here](http://www.entityframeworktutorial.net/images/codefirst/codefirst-db.PNG)
+Yukarıdaki ekran görüntüsünde gördüğünüz gibi, Öğrenciler ve Sınıflar tabloları oluşturdu ve her tablo , uygun veri tipi ve uzunluğa sahip sütunlar içeriyor.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc1MjkwNTEyOCwtMjA2Mjg3MTU4NywxNT
-IwODEwNzEwLC0xOTU3MjA0MTgyLC0xMTQ0ODAwMDQ0LC00NTM0
-NTAyNzIsMTY1NjQ4MTA1MSwxNTM0NjE0NzM2LDEyNzY2ODM1NT
-YsLTE4MDE1OTcxNDNdfQ==
+eyJoaXN0b3J5IjpbMzQ4MTM5ODcwLC0yMDYyODcxNTg3LDE1Mj
+A4MTA3MTAsLTE5NTcyMDQxODIsLTExNDQ4MDAwNDQsLTQ1MzQ1
+MDI3MiwxNjU2NDgxMDUxLDE1MzQ2MTQ3MzYsMTI3NjY4MzU1Ni
+wtMTgwMTU5NzE0M119
 -->
