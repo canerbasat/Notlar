@@ -50,11 +50,22 @@ public class Student
 ```
 Aşağıda gösterildiği gibi Sınıf sınıfını oluşturun.
 
+```csharp
+public class Grade
+{
+    public int GradeId { get; set; }
+    public string GradeName { get; set; }
+    public string Section { get; set; }
+    
+    public ICollection<Student> Students { get; set; }
+}
+```
 
 
+Code-First yaklaşımı, DbContext sınıfından türetilmesi gereken bir bağlam sınıfını da gerektirir. Aşağıda gösterildiği gibi bir içerik sınıfı oluşturun.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjczMTA3MDcwLDE1MjA4MTA3MTAsLTE5NT
-cyMDQxODIsLTExNDQ4MDAwNDQsLTQ1MzQ1MDI3MiwxNjU2NDgx
-MDUxLDE1MzQ2MTQ3MzYsMTI3NjY4MzU1NiwtMTgwMTU5NzE0M1
-19
+eyJoaXN0b3J5IjpbMjA1MjU1ODUwMiwxNTIwODEwNzEwLC0xOT
+U3MjA0MTgyLC0xMTQ0ODAwMDQ0LC00NTM0NTAyNzIsMTY1NjQ4
+MTA1MSwxNTM0NjE0NzM2LDEyNzY2ODM1NTYsLTE4MDE1OTcxND
+NdfQ==
 -->
