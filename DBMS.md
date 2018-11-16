@@ -36,16 +36,16 @@ XYZ Okulu için basit bir uygulama oluşturmak istediğimizi varsayalım. Bu Oku
 İlk önce veritabanı tabloları tasarlamak yerine,  ilk olarak, her bir öğrencinin ilişkili olduğu  `Oğrenci` ve `Sınıf` classlarını oluşturun.
 
 ```csharp
-public class Student
+public class Ogrenci
 {
-    public int StudentID { get; set; }
-    public string StudentName { get; set; }
-    public DateTime? DateOfBirth { get; set; }
-    public byte[]  Photo { get; set; }
-    public decimal Height { get; set; }
-    public float Weight { get; set; }
+    public int OgrenciID { get; set; }
+    public string OgrenciName { get; set; }
+    public DateTime? DogumYılı { get; set; }
+    public byte[]  Resim { get; set; }
+    public decimal Boy { get; set; }
+    public float Kilo { get; set; }
         
-    public Grade Grade { get; set; }
+    public Sınıf Sınıf { get; set; }
 }
 ```
 Aşağıda gösterildiği gibi Sınıf sınıfını oluşturun.
@@ -53,8 +53,8 @@ Aşağıda gösterildiği gibi Sınıf sınıfını oluşturun.
 ```csharp
 public class Grade
 {
-    public int GradeId { get; set; }
-    public string GradeName { get; set; }
+    public int SınıfID { get; set; }
+    public string SınıfAdı { get; set; }
     public string Section { get; set; }
     
     public ICollection<Student> Students { get; set; }
@@ -109,8 +109,10 @@ Pekiiii bu veritabanı nerede nasıl oluştu ???
 Bu EF Code-First API'nin güzelliğidir. Bağlam sınıfınızın temel yapıcısında geçirilen parametrelere dayanarak veritabanını oluşturur.
 
 İçerik sınıfımızın yapıcısında herhangi bir parametre geçmediğimiz için, yerel SQLEXPRESS veritabanında ***NameofYourProject.SchoolContext*** veritabanı oluşturdu.
+
+Ayrıca bu veritabanında, yukarıda tanımlanan Öğrenci ve Sınıf alan sınıflarına dayalı `Öğrenci` ve `Sınıf` olmak üzere iki tablo oluşturdu.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAwMzMyMzU2MCwtMjA2Mjg3MTU4NywxNT
+eyJoaXN0b3J5IjpbMTY0NTEwNjkzNywtMjA2Mjg3MTU4NywxNT
 IwODEwNzEwLC0xOTU3MjA0MTgyLC0xMTQ0ODAwMDQ0LC00NTM0
 NTAyNzIsMTY1NjQ4MTA1MSwxNTM0NjE0NzM2LDEyNzY2ODM1NT
 YsLTE4MDE1OTcxNDNdfQ==
