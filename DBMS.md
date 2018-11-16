@@ -107,8 +107,10 @@ Uygulamayı çalıştırırsanız, bir öğrencinin veritabanına başarıyla ek
 Pekiiii bu veritabanı nerede nasıl oluştu ???
 
 Bu EF Code-First API'nin güzelliğidir. Bağlam sınıfınızın temel yapıcısında geçirilen parametrelere dayanarak veritabanını oluşturur.
+
+İçerik sınıfımızın yapıcısında herhangi bir parametre geçmediğimiz için, yerel SQLEXPRESS veritabanında ***NameofYourProject.SchoolContext*** veritabanı oluşturdu.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMxMDA1MjA5OCwtMjA2Mjg3MTU4NywxNT
+eyJoaXN0b3J5IjpbMTAwMzMyMzU2MCwtMjA2Mjg3MTU4NywxNT
 IwODEwNzEwLC0xOTU3MjA0MTgyLC0xMTQ0ODAwMDQ0LC00NTM0
 NTAyNzIsMTY1NjQ4MTA1MSwxNTM0NjE0NzM2LDEyNzY2ODM1NT
 YsLTE4MDE1OTcxNDNdfQ==
