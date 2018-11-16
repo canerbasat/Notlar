@@ -33,8 +33,9 @@ Ornek
 -
 XYZ Okulu için basit bir uygulama oluşturmak istediğimizi varsayalım. Bu Okul uygulamasının kullanıcıları, öğrencileri, notları, öğretmenleri ve kurs bilgilerini ekleyebilmeli ve güncelleyebilmelidir.
 
-İlk önce veritabanı tabloları tasarlamak yerine,  ilk olarak, her bir öğrencinin ilişkili olduğu  `Oğrenci` ve `Not` classlarını oluşturun.
+İlk önce veritabanı tabloları tasarlamak yerine,  ilk olarak, her bir öğrencinin ilişkili olduğu  `Oğrenci` ve `Sınıf` classlarını oluşturun.
 
+```csharp
 public class Student
 {
     public int StudentID { get; set; }
@@ -46,9 +47,14 @@ public class Student
         
     public Grade Grade { get; set; }
 }
+```
+Aşağıda gösterildiği gibi Sınıf sınıfını oluşturun.
+
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYwMzE2NjAyMCwxNTIwODEwNzEwLC0xOT
-U3MjA0MTgyLC0xMTQ0ODAwMDQ0LC00NTM0NTAyNzIsMTY1NjQ4
-MTA1MSwxNTM0NjE0NzM2LDEyNzY2ODM1NTYsLTE4MDE1OTcxND
-NdfQ==
+eyJoaXN0b3J5IjpbMjczMTA3MDcwLDE1MjA4MTA3MTAsLTE5NT
+cyMDQxODIsLTExNDQ4MDAwNDQsLTQ1MzQ1MDI3MiwxNjU2NDgx
+MDUxLDE1MzQ2MTQ3MzYsMTI3NjY4MzU1NiwtMTgwMTU5NzE0M1
+19
 -->
