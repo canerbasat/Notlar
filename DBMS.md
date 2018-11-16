@@ -13,6 +13,9 @@ Avantaj
 
 Dezavantaj
 -
+- Performans sorunu
+- Veri transferi sırasında kontrolün yüzde yüz elde olmaması(Üretilen SQL bazen farklı olabilir)
+- Kullanılan ORM aracını öğrenmek için harcanan zaman
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg5NDE0OTMzNSwtMTgwMTU5NzE0M119
+eyJoaXN0b3J5IjpbMTI3NjY4MzU1NiwtMTgwMTU5NzE0M119
 -->
