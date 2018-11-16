@@ -35,10 +35,20 @@ XYZ Okulu için basit bir uygulama oluşturmak istediğimizi varsayalım. Bu Oku
 
 İlk önce veritabanı tabloları tasarlamak yerine,  ilk olarak, her bir öğrencinin ilişkili olduğu  `Oğrenci` ve `Not` classlarını oluşturun.
 
-
+public class Student
+{
+    public int StudentID { get; set; }
+    public string StudentName { get; set; }
+    public DateTime? DateOfBirth { get; set; }
+    public byte[]  Photo { get; set; }
+    public decimal Height { get; set; }
+    public float Weight { get; set; }
+        
+    public Grade Grade { get; set; }
+}
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NzMwNjY4MjcsMTUyMDgxMDcxMCwtMT
-k1NzIwNDE4MiwtMTE0NDgwMDA0NCwtNDUzNDUwMjcyLDE2NTY0
-ODEwNTEsMTUzNDYxNDczNiwxMjc2NjgzNTU2LC0xODAxNTk3MT
-QzXX0=
+eyJoaXN0b3J5IjpbMTYwMzE2NjAyMCwxNTIwODEwNzEwLC0xOT
+U3MjA0MTgyLC0xMTQ0ODAwMDQ0LC00NTM0NTAyNzIsMTY1NjQ4
+MTA1MSwxNTM0NjE0NzM2LDEyNzY2ODM1NTYsLTE4MDE1OTcxND
+NdfQ==
 -->
