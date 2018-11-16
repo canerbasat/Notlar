@@ -21,11 +21,15 @@ Bu işleme "*Code Generating*" denir.  EF kullanan geliştirici LINQ kullanarak 
 Entity(varlık) 3 bölümden oluşur.
 
  1.  Conceptual Model 
-	   - Model sınıflarımız ve bu sınıfların ilişkileri yer alacaktır.
+	   - Model sınıflarımız ve bu sınıfların ilişkileri yer alacaktır 
+	   - Bu sınıflar veritabanından bağımsızdır.
+2.  Storage Model
+	  - Tasarım modelimiz yer alır.
+	  - Bu model içerisinde veritabanımıza ait view'laar , stored procedureler 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ0MzAwMDQ5MSwtMTk1NzIwNDE4MiwtMT
-E0NDgwMDA0NCwtNDUzNDUwMjcyLDE2NTY0ODEwNTEsMTUzNDYx
-NDczNiwxMjc2NjgzNTU2LC0xODAxNTk3MTQzXX0=
+eyJoaXN0b3J5IjpbNjE0NjU4ODc3LC0xOTU3MjA0MTgyLC0xMT
+Q0ODAwMDQ0LC00NTM0NTAyNzIsMTY1NjQ4MTA1MSwxNTM0NjE0
+NzM2LDEyNzY2ODM1NTYsLTE4MDE1OTcxNDNdfQ==
 -->
