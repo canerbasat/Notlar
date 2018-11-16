@@ -8,8 +8,11 @@ Avantaj
 - 
 - OOP metodu sunar.
 - Yazılan kodun veritabanı çeşidiyle bağlılığı yoktur.
-- SQL/JDBC bilmenize yazmanıza gerek yoktur.
-- 
+- SQL/JDBC bilmenize yazmanıza gerek kalmadan kısa bir zamanda ve daha az kod ile veritabanına bağlı bir uygulama yapabiliriz.
+- Daha test edilebilir bir kod yazmamızı sağlar.
+
+Dezavantaj
+-
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTY1ODgxNzcyLC0xODAxNTk3MTQzXX0=
+eyJoaXN0b3J5IjpbMTg5NDE0OTMzNSwtMTgwMTU5NzE0M119
 -->
