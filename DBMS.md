@@ -114,9 +114,14 @@ Ayrıca bu veritabanında, yukarıda tanımlanan Öğrenci ve Sınıf alan sın�
 
 ![enter image description here](http://www.entityframeworktutorial.net/images/codefirst/codefirst-db.PNG)
 Yukarıdaki ekran görüntüsünde gördüğünüz gibi, Öğrenciler ve Sınıflar tabloları oluşturdu ve her tablo , uygun veri tipi ve uzunluğa sahip sütunlar içeriyor.
+
+Sütun adları ve veri türü, ilgili alan adı sınıflarının özellikleriyle eşleşir.(Classlarda tanımladığımız değişkenker)
+
+Ayrıca, StudentId ve GradeId'i PK'lar (birincil anahtarlar) haline getirdi ve FK (yabancı anahtar) olarak Grade_GradeId sütununu yarattı.
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzQ4MTM5ODcwLC0yMDYyODcxNTg3LDE1Mj
-A4MTA3MTAsLTE5NTcyMDQxODIsLTExNDQ4MDAwNDQsLTQ1MzQ1
-MDI3MiwxNjU2NDgxMDUxLDE1MzQ2MTQ3MzYsMTI3NjY4MzU1Ni
-wtMTgwMTU5NzE0M119
+eyJoaXN0b3J5IjpbLTE5MzIyNDk2MDQsLTIwNjI4NzE1ODcsMT
+UyMDgxMDcxMCwtMTk1NzIwNDE4MiwtMTE0NDgwMDA0NCwtNDUz
+NDUwMjcyLDE2NTY0ODEwNTEsMTUzNDYxNDczNiwxMjc2NjgzNT
+U2LC0xODAxNTk3MTQzXX0=
 -->
