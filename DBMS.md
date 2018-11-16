@@ -22,7 +22,61 @@ Dezavantaj
 
 ORM bize veritabanı üzerinde kayıt ekleme (INSERT), çekme (SELECT), düzenleme (UPDATE) işlemlerini daha kolaya indirgememizi sağlar. Bu işlemler direk ORM üzerinden gerçekleşmektedir. Bu yöntemin dışında katı SQL kodu yazarak da yapılabileceği gibi,
 
+
+
+
+
+
+**ORM Araçları**
+
+**1. Java için ORM frameworkleri:**
+
+- Hibernate
+
+- JPA
+
+- OpenJPA
+
+- Toplink
+
+- EclipseLink
+
+- Apache Cayenne
+
+- MyBattis
+
+**2. .Net için ORM frameworkleri**
+
+- Entity Framework
+
+- Nhibernate
+
+- .Net Persistence
+
+- BBADataObjects-
+
+- DataObjects.NET
+
+- DotNorm
+
+- FastObjects.NET
+
+- Norm
+
+- OJB(.ney
+
+**3. PHP için ORM frameworkleri:**
+
+- Propel
+
+- Doctrine
+
+- PHP-Activerecord
+
+- PdoMap
+
+- RedBean
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NzIyNTUwNTYsMTI3NjY4MzU1NiwtMT
-gwMTU5NzE0M119
+eyJoaXN0b3J5IjpbMTQzNzU1Mjg5OSwxMjc2NjgzNTU2LC0xOD
+AxNTk3MTQzXX0=
 -->
