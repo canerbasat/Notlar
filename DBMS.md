@@ -17,9 +17,14 @@ Veritabanına yapılacak CRUD(create,read,update,delete) işlemlerini EF(entity 
 
 Bu işleme "*Code Generating*" denir.  EF kullanan geliştirici LINQ kullanarak sorgu yazabilir.
 
+#### ENTITY DATA MODEL
+Entity(varlık) 3 bölümden oluşur.
+
+ 1. Conceptual Model 
+ 2. 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NTcyMDQxODIsLTExNDQ4MDAwNDQsLT
-Q1MzQ1MDI3MiwxNjU2NDgxMDUxLDE1MzQ2MTQ3MzYsMTI3NjY4
-MzU1NiwtMTgwMTU5NzE0M119
+eyJoaXN0b3J5IjpbMTU0NTM1MjA2MiwtMTk1NzIwNDE4MiwtMT
+E0NDgwMDA0NCwtNDUzNDUwMjcyLDE2NTY0ODEwNTEsMTUzNDYx
+NDczNiwxMjc2NjgzNTU2LC0xODAxNTk3MTQzXX0=
 -->
