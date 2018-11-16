@@ -19,7 +19,9 @@ Dezavantaj
 - Performans sorunu
 - Veri transferi sırasında kontrolün yüzde yüz elde olmaması(Üretilen SQL bazen farklı olabilir)
 - Kullanılan ORM aracını öğrenmek için harcanan zaman
+
+ORM bize kayıt ekleme (INSERT), çekme (SELECT), düzenleme (UPDATE) işlemleri çok kolay yapılmaktadır. Bu işlemler direk ORM üzerinden gerçkeleşmektedir. Bu yöntemin dışında katı SQL kodu yazarak da yapılabileceği gibi, ORM araçlarının kendi dilleri de entegre olabilmektedir. Buna en güzel örnek, Hibernate’teki HQL ve Microsoft’un runtime’da sorgu hatalarını en aza indirmeyi planladığı ve birçok noktada kolaylık sağayan LINQ (Entity Framwork).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEzMTE2NjMwOCwxMjc2NjgzNTU2LC0xOD
-AxNTk3MTQzXX0=
+eyJoaXN0b3J5IjpbMTE4OTkzNDM1LDEyNzY2ODM1NTYsLTE4MD
+E1OTcxNDNdfQ==
 -->
