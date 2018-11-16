@@ -65,10 +65,29 @@ public class Grade
 [Code-First](http://www.ugurkizmaz.com/YazilimMakale-1858-Entity-Framework-Code-First-Nedir--Ornek-Proje-ile-Inceleyelim.aspx) yaklaşımı, DbContext sınıfından türetilmesi gereken bir bağlam sınıfını da gerektirir. Aşağıda gösterildiği gibi bir içerik sınıfı oluşturun.
 
 
+DBContext sınıfından türetilir ve modelin parçası olmak istediğiniz türler için DbSet özelliklerini gösterir, ör. Bu durumda Öğrenci ve Sınıf sınıfları. DbSet, varlık sınıflarının bir koleksiyonudur
 
+```csharp
+ public class SchoolContext: DbContext 
+    {
+        public SchoolContext(): base()
+        {
+            
+        }
+            
+        public DbSet<Student> Students { get; set; }
+        public DbSet<Grade> Grades { get; set; }
+    }
+```
+
+
+Şimdi, codefirst yaklaşım için gerekli sınıflar ile bitmiştir. Şimdi, aşağıda gösterildiği gibi içerik sınıfını kullanarak bir öğrenci ekleyeceğiz.
+
+  
+EXTENSION
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM2MjU5NjY2MywxNTIwODEwNzEwLC0xOT
-U3MjA0MTgyLC0xMTQ0ODAwMDQ0LC00NTM0NTAyNzIsMTY1NjQ4
-MTA1MSwxNTM0NjE0NzM2LDEyNzY2ODM1NTYsLTE4MDE1OTcxND
-NdfQ==
+eyJoaXN0b3J5IjpbLTExMDg5MTYxMTQsMTUyMDgxMDcxMCwtMT
+k1NzIwNDE4MiwtMTE0NDgwMDA0NCwtNDUzNDUwMjcyLDE2NTY0
+ODEwNTEsMTUzNDYxNDczNiwxMjc2NjgzNTU2LC0xODAxNTk3MT
+QzXX0=
 -->
