@@ -90,9 +90,10 @@ Sql Server’ da “**dbOkul”**  isimli bir  **database**  oluşturarak içine
 
 
 
-ekleee
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ1MzQ1MDI3MiwxNjU2NDgxMDUxLDE1Mz
-Q2MTQ3MzYsMTI3NjY4MzU1NiwtMTgwMTU5NzE0M119
+eyJoaXN0b3J5IjpbMzM1MTc5NjQ3LC00NTM0NTAyNzIsMTY1Nj
+Q4MTA1MSwxNTM0NjE0NzM2LDEyNzY2ODM1NTYsLTE4MDE1OTcx
+NDNdfQ==
 -->
