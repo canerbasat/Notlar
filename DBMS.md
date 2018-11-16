@@ -81,9 +81,13 @@ ORM bize veritabanı üzerinde kayıt ekleme (INSERT), çekme (SELECT), düzenle
 
 ORM sayesinde SQL sorgularıyla yapılan birçok işlem SQL sorgusu kullanılmadan gerçekleştirilmektedir. 
 
-Örneğin veritabanından veri çekmek için SELECT sorgusu yerine oluşturmak yerine oluşturulan nesneden ID’si xxx olan eleman gelsin diyerek veritabanından o elemanı alabiliriz. Başka bir şekilde örneklersek, Ad’ı yyy olan elemanları  **List**e şeklinde getirmek istiyorsak “BU NESNEDEN Ad’ı yyy OLANLARI GETİR” diyerek SELECT sorgusu yazıp, sonra onu List’e atmayla uğraşmadan getirebiliyoruz.
+Ornek 
+-
+**Entity Framework**  kullanarak SQL Server üzerinde bulunan  **veritabanımıza**  bağlanarak veri çekme,veri  **ekleme**,veri  **silme**ve veri  **güncelleme**  işlemlerini anlatan bir örnek yapalım
+
+Sql Server’ da “**dbOkul”**  isimli bir  **database**  oluşturarak içine “**ogrenci”**  ekleyelim.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY1NjQ4MTA1MSwxNTM0NjE0NzM2LDEyNz
-Y2ODM1NTYsLTE4MDE1OTcxNDNdfQ==
+eyJoaXN0b3J5IjpbMTEzMDQ3Nzg5OSwxNjU2NDgxMDUxLDE1Mz
+Q2MTQ3MzYsMTI3NjY4MzU1NiwtMTgwMTU5NzE0M119
 -->
