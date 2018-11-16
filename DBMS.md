@@ -1,4 +1,4 @@
-Object Relational Mapping
+# Object Relational Mapping
 
 İlişkisel veritabanı ile nesne yönelimli(Object Oriented Programming) arasında bir tür köprü özelliği gören ve ilişkisel veritabanındaki bilgilerimizi yönetmek için nesne modelimizi kullandığımız bir tekniktir.
 
@@ -30,7 +30,7 @@ ORM bize veritabanı üzerinde kayıt ekleme (INSERT), çekme (SELECT), düzenle
 							    
 							 **ORM Araçları**
     
-    *1. Java için ORM frameworkleri:*
+						*1. Java için ORM frameworkleri:*
     
     - Hibernate
     
@@ -46,7 +46,8 @@ ORM bize veritabanı üzerinde kayıt ekleme (INSERT), çekme (SELECT), düzenle
     
     - MyBattis
     
-    **2. .Net için ORM frameworkleri**
+    
+					    *2. .Net için ORM frameworkleri*
     
     - Entity Framework
     
@@ -65,7 +66,7 @@ ORM bize veritabanı üzerinde kayıt ekleme (INSERT), çekme (SELECT), düzenle
     
     - OJB(.net)
     
-    **3. PHP için ORM frameworkleri:**
+					    **3. PHP için ORM frameworkleri:**
     
     - Propel
     
@@ -78,6 +79,6 @@ ORM bize veritabanı üzerinde kayıt ekleme (INSERT), çekme (SELECT), düzenle
     - RedBean
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDk5MTc1MDQ1LDEyNzY2ODM1NTYsLTE4MD
-E1OTcxNDNdfQ==
+eyJoaXN0b3J5IjpbMTUzNDYxNDczNiwxMjc2NjgzNTU2LC0xOD
+AxNTk3MTQzXX0=
 -->
