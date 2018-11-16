@@ -101,9 +101,15 @@ class Program
         }
     }
 ```
+
+Uygulamayı çalıştırırsanız, bir öğrencinin veritabanına başarıyla eklendiğini görürsünüz.
+
+Pekiiii bu veritabanı nerede nasıl oluştu ???
+
+Bu EF Code-First API'nin güzelliğidir. Bağlam sınıfınızın temel yapıcısında geçirilen parametrelere dayanarak veritabanını oluşturur.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNjI4NzE1ODcsMTUyMDgxMDcxMCwtMT
-k1NzIwNDE4MiwtMTE0NDgwMDA0NCwtNDUzNDUwMjcyLDE2NTY0
-ODEwNTEsMTUzNDYxNDczNiwxMjc2NjgzNTU2LC0xODAxNTk3MT
-QzXX0=
+eyJoaXN0b3J5IjpbMTMxMDA1MjA5OCwtMjA2Mjg3MTU4NywxNT
+IwODEwNzEwLC0xOTU3MjA0MTgyLC0xMTQ0ODAwMDQ0LC00NTM0
+NTAyNzIsMTY1NjQ4MTA1MSwxNTM0NjE0NzM2LDEyNzY2ODM1NT
+YsLTE4MDE1OTcxNDNdfQ==
 -->
