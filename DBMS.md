@@ -2,6 +2,9 @@ Object Relational Mapping
 
 İlişkisel veritabanı ile nesne yönelimli(Object Oriented Programming) arasında bir tür köprü özelliği gören ve ilişkisel veritabanındaki bilgilerimizi yönetmek için nesne modelimizi kullandığımız bir tekniktir.
 
+
+ORM, veritabanında oluşturulan her bir nesneye (tabloya) karşılık uygulama tarafında bir nesne oluşturma işidir. Bu işlem bazı Frameworklerde ara yazılımlar sayesinde (ORM Tools), bazı frameworklerde ise elle gerçekleştirilmektedir.
+
 ORM tekniği belli bir programlama diline bağlı değildir ve her OOP dilinde yazılabilir.
 
 Avantaj
@@ -17,5 +20,6 @@ Dezavantaj
 - Veri transferi sırasında kontrolün yüzde yüz elde olmaması(Üretilen SQL bazen farklı olabilir)
 - Kullanılan ORM aracını öğrenmek için harcanan zaman
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI3NjY4MzU1NiwtMTgwMTU5NzE0M119
+eyJoaXN0b3J5IjpbMjEzMTE2NjMwOCwxMjc2NjgzNTU2LC0xOD
+AxNTk3MTQzXX0=
 -->
