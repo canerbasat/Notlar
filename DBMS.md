@@ -62,9 +62,12 @@ public class Grade
 ```
 
 
-Code-First yaklaşımı, DbContext sınıfından türetilmesi gereken bir bağlam sınıfını da gerektirir. Aşağıda gösterildiği gibi bir içerik sınıfı oluşturun.
+[Code-First](http://www.ugurkizmaz.com/YazilimMakale-1858-Entity-Framework-Code-First-Nedir--Ornek-Proje-ile-Inceleyelim.aspx) yaklaşımı, DbContext sınıfından türetilmesi gereken bir bağlam sınıfını da gerektirir. Aşağıda gösterildiği gibi bir içerik sınıfı oluşturun.
+
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA1MjU1ODUwMiwxNTIwODEwNzEwLC0xOT
+eyJoaXN0b3J5IjpbMTM2MjU5NjY2MywxNTIwODEwNzEwLC0xOT
 U3MjA0MTgyLC0xMTQ0ODAwMDQ0LC00NTM0NTAyNzIsMTY1NjQ4
 MTA1MSwxNTM0NjE0NzM2LDEyNzY2ODM1NTYsLTE4MDE1OTcxND
 NdfQ==
