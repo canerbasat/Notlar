@@ -57,7 +57,7 @@ public class Grade
     public string SınıfAdı { get; set; }
     public string Section { get; set; }
     
-    public ICollection<Student> Students { get; set; }
+    public ICollection<Ogrenci> Ogrenciler { get; set; }
 }
 ```
 
@@ -75,8 +75,8 @@ DBContext sınıfından türetilir ve modelin parçası olmak istediğiniz türl
             
         }
             
-        public DbSet<Student> Students { get; set; }
-        public DbSet<Grade> Grades { get; set; }
+        public DbSet<Ogrenci> Ogrenciler { get; set; }
+        public DbSet<Sınıf> Sınıflar { get; set; }
     }
 ```
 
@@ -111,8 +111,10 @@ Bu EF Code-First API'nin güzelliğidir. Bağlam sınıfınızın temel yapıcı
 İçerik sınıfımızın yapıcısında herhangi bir parametre geçmediğimiz için, yerel SQLEXPRESS veritabanında ***NameofYourProject.SchoolContext*** veritabanı oluşturdu.
 
 Ayrıca bu veritabanında, yukarıda tanımlanan Öğrenci ve Sınıf alan sınıflarına dayalı `Öğrenci` ve `Sınıf` olmak üzere iki tablo oluşturdu.
+
+![enter image description here](http://www.entityframeworktutorial.net/images/codefirst/codefirst-db.PNG)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY0NTEwNjkzNywtMjA2Mjg3MTU4NywxNT
+eyJoaXN0b3J5IjpbMTc1MjkwNTEyOCwtMjA2Mjg3MTU4NywxNT
 IwODEwNzEwLC0xOTU3MjA0MTgyLC0xMTQ0ODAwMDQ0LC00NTM0
 NTAyNzIsMTY1NjQ4MTA1MSwxNTM0NjE0NzM2LDEyNzY2ODM1NT
 YsLTE4MDE1OTcxNDNdfQ==
