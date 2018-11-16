@@ -25,11 +25,13 @@ Entity(varlık) 3 bölümden oluşur.
 	   - Bu sınıflar veritabanından bağımsızdır.
 2.  Storage Model
 	  - Tasarım modelimiz yer alır.
-	  - Bu model içerisinde veritabanımıza ait view'laar , stored procedureler 
+	  - Bu model içerisinde veritabanımıza ait view'laar , stored procedureler ve bunlara ait ilişkiler ve keyler yer alır.
+3. Mapping
+	  - Mapping alanı ise model sınıflarımız ve tasarım modelimiz arasındaki haritalama işlemlerinin bilgilerinin tutulduğu alandır.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjE0NjU4ODc3LC0xOTU3MjA0MTgyLC0xMT
-Q0ODAwMDQ0LC00NTM0NTAyNzIsMTY1NjQ4MTA1MSwxNTM0NjE0
-NzM2LDEyNzY2ODM1NTYsLTE4MDE1OTcxNDNdfQ==
+eyJoaXN0b3J5IjpbMTUyMDgxMDcxMCwtMTk1NzIwNDE4MiwtMT
+E0NDgwMDA0NCwtNDUzNDUwMjcyLDE2NTY0ODEwNTEsMTUzNDYx
+NDczNiwxMjc2NjgzNTU2LC0xODAxNTk3MTQzXX0=
 -->
