@@ -81,13 +81,18 @@ ORM bize veritabanı üzerinde kayıt ekleme (INSERT), çekme (SELECT), düzenle
 
 ORM sayesinde SQL sorgularıyla yapılan birçok işlem SQL sorgusu kullanılmadan gerçekleştirilmektedir. 
 
-Ornek 
+Ornek
 -
 **Entity Framework**  kullanarak SQL Server üzerinde bulunan  **veritabanımıza**  bağlanarak veri çekme,veri  **ekleme**,veri  **silme**ve veri  **güncelleme**  işlemlerini anlatan bir örnek yapalım
 
 Sql Server’ da “**dbOkul”**  isimli bir  **database**  oluşturarak içine “**ogrenci”**  ekleyelim.
 
+
+
+
+ekleee
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEzMDQ3Nzg5OSwxNjU2NDgxMDUxLDE1Mz
+eyJoaXN0b3J5IjpbLTQ1MzQ1MDI3MiwxNjU2NDgxMDUxLDE1Mz
 Q2MTQ3MzYsMTI3NjY4MzU1NiwtMTgwMTU5NzE0M119
 -->
