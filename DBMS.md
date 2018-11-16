@@ -81,12 +81,28 @@ DBContext sınıfından türetilir ve modelin parçası olmak istediğiniz türl
 ```
 
 
-Şimdi, codefirst yaklaşım için gerekli sınıflar ile bitmiştir. Şimdi, aşağıda gösterildiği gibi içerik sınıfını kullanarak bir öğrenci ekleyeceğiz.
+Şimdi, codefirst yaklaşım için gerekli sınıflar ile bitmiştir.
+Aşağıda gösterildiği gibi içerik sınıfını kullanarak bir öğrenci ekleyeceğiz.
 
-  
-EXTENSION
+
+```csharp
+class Program
+    {
+        static void Main(string[] args)
+        {
+     
+            using (var ctx = new SchoolContext())
+            {
+                var stud = new Student() { StudentName = "Bill" };
+        
+                ctx.Students.Add(stud);
+                ctx.SaveChanges();                
+            }
+        }
+    }
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMDg5MTYxMTQsMTUyMDgxMDcxMCwtMT
+eyJoaXN0b3J5IjpbLTIwNjI4NzE1ODcsMTUyMDgxMDcxMCwtMT
 k1NzIwNDE4MiwtMTE0NDgwMDA0NCwtNDUzNDUwMjcyLDE2NTY0
 ODEwNTEsMTUzNDYxNDczNiwxMjc2NjgzNTU2LC0xODAxNTk3MT
 QzXX0=
