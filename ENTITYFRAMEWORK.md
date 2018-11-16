@@ -51,7 +51,7 @@ public class Ogrenci
 Aşağıda gösterildiği gibi Sınıf sınıfını oluşturun.
 
 ```csharp
-public class Grade
+public class Sınıf
 {
     public int SınıfID { get; set; }
     public string SınıfAdı { get; set; }
@@ -93,9 +93,9 @@ class Program
      
             using (var ctx = new SchoolContext())
             {
-                var stud = new Student() { StudentName = "Bill" };
+                var ogren = new Ogrenci() { OgrenciAdı = "Veli" };
         
-                ctx.Students.Add(stud);
+                ctx.Ogrenciler.Add(ogren);
                 ctx.SaveChanges();                
             }
         }
