@@ -87,13 +87,13 @@ Ornek
 
 Sql Server’ da “**dbOkul”**  isimli bir  **database**  oluşturarak içine “**ogrenci”**  ekleyelim.
 
-
+![enter image description herse](https://picasaweb.google.com/115368328299963382215/6624366539265349473#6624366543358441634)
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzM1MTc5NjQ3LC00NTM0NTAyNzIsMTY1Nj
-Q4MTA1MSwxNTM0NjE0NzM2LDEyNzY2ODM1NTYsLTE4MDE1OTcx
-NDNdfQ==
+eyJoaXN0b3J5IjpbMTk2MjA1MTcwMCwtNDUzNDUwMjcyLDE2NT
+Y0ODEwNTEsMTUzNDYxNDczNiwxMjc2NjgzNTU2LC0xODAxNTk3
+MTQzXX0=
 -->
