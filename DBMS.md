@@ -33,12 +33,12 @@ Ornek
 -
 XYZ Okulu için basit bir uygulama oluşturmak istediğimizi varsayalım. Bu Okul uygulamasının kullanıcıları, öğrencileri, notları, öğretmenleri ve kurs bilgilerini ekleyebilmeli ve güncelleyebilmelidir.
 
-İlk önce veritabanı tabloları tasarlamak yerine, gerektiğinde ilk olarak, her bir öğrencinin o ile ilişkili olduğu `Oğrenci` ve `Sınıf` classlarını oluşturun.
+İlk önce veritabanı tabloları tasarlamak yerine,  ilk olarak, her bir öğrencinin ilişkili olduğu  `Oğrenci` ve `Not` classlarını oluşturun.
 
-Öncelikle, her öğrencinin aşağıda gösterildiği gibi bir Notla ilişkilendirildiği Öğrenci ve Sınıf sınıflarını oluşturun.
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAxOTM4MzAwNiwxNTIwODEwNzEwLC0xOT
-U3MjA0MTgyLC0xMTQ0ODAwMDQ0LC00NTM0NTAyNzIsMTY1NjQ4
-MTA1MSwxNTM0NjE0NzM2LDEyNzY2ODM1NTYsLTE4MDE1OTcxND
-NdfQ==
+eyJoaXN0b3J5IjpbLTE3NzMwNjY4MjcsMTUyMDgxMDcxMCwtMT
+k1NzIwNDE4MiwtMTE0NDgwMDA0NCwtNDUzNDUwMjcyLDE2NTY0
+ODEwNTEsMTUzNDYxNDczNiwxMjc2NjgzNTU2LC0xODAxNTk3MT
+QzXX0=
 -->
