@@ -35,9 +35,9 @@ XYZ Okulu için basit bir uygulama oluşturmak istediğimizi varsayalım. Bu Oku
 
 İlk önce veritabanı tabloları tasarlamak yerine, gerektiğinde ilk olarak, her bir öğrencinin o ile ilişkili olduğu `Oğrenci` ve `Sınıf` classlarını oluşturun.
 
-İlk olarak, oluşturma `Ogrenci`ve `Sınıf`her sınıfları `Sınıf`biri ile ilişkili olan `Grade`, aşağıda gösterildiği gibi. Buna bire çok ilişki denir. EF varlıkları (domain sınıflar) arasındaki ilişkiyi yöneten nasıl öğrenin
+Öncelikle, her öğrencinin aşağıda gösterildiği gibi bir Notla ilişkilendirildiği Öğrenci ve Sınıf sınıflarını oluşturun.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA0OTY3MDU5NCwxNTIwODEwNzEwLC0xOT
+eyJoaXN0b3J5IjpbMjAxOTM4MzAwNiwxNTIwODEwNzEwLC0xOT
 U3MjA0MTgyLC0xMTQ0ODAwMDQ0LC00NTM0NTAyNzIsMTY1NjQ4
 MTA1MSwxNTM0NjE0NzM2LDEyNzY2ODM1NTYsLTE4MDE1OTcxND
 NdfQ==
