@@ -30,13 +30,13 @@ Entity(varlık) 3 bölümden oluşur.
 	  - Mapping alanı ise model sınıflarımız ve tasarım modelimiz arasındaki haritalama işlemlerinin bilgilerinin tutulduğu alandır.
 
 Ornek
-
+-
 XYZ Okulu için basit bir uygulama oluşturmak istediğimizi varsayalım. Bu Okul uygulamasının kullanıcıları, öğrencileri, notları, öğretmenleri ve kurs bilgilerini ekleyebilmeli ve güncelleyebilmelidir.
 
-İlk önce veritabanı tabloları tasarlamak yerine, gerektiğinde ve gerektiğinde okul alanımız için sınıflar oluşturmaya başlayalım. İlk olarak, oluşturma `Ogren`ve `Grade`her sınıfları `Student`biri ile ilişkili olan `Grade`, aşağıda gösterildiği gibi. Buna bire çok ilişki denir. EF varlıkları (domain sınıflar) arasındaki ilişkiyi yöneten nasıl öğrenin
+İlk önce veritabanı tabloları tasarlamak yerine, gerektiğinde ve gerektiğinde okul alanımız için sınıflar oluşturmaya başlayalım. İlk olarak, oluşturma `Ogrenci`ve `Sınıf`her sınıfları `Sınıf`biri ile ilişkili olan `Grade`, aşağıda gösterildiği gibi. Buna bire çok ilişki denir. EF varlıkları (domain sınıflar) arasındaki ilişkiyi yöneten nasıl öğrenin
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUyNjQwMjkyOSwxNTIwODEwNzEwLC0xOT
-U3MjA0MTgyLC0xMTQ0ODAwMDQ0LC00NTM0NTAyNzIsMTY1NjQ4
-MTA1MSwxNTM0NjE0NzM2LDEyNzY2ODM1NTYsLTE4MDE1OTcxND
-NdfQ==
+eyJoaXN0b3J5IjpbMzk0NjYxMjM4LDE1MjA4MTA3MTAsLTE5NT
+cyMDQxODIsLTExNDQ4MDAwNDQsLTQ1MzQ1MDI3MiwxNjU2NDgx
+MDUxLDE1MzQ2MTQ3MzYsMTI3NjY4MzU1NiwtMTgwMTU5NzE0M1
+19
 -->
