@@ -20,11 +20,12 @@ Bu işleme "*Code Generating*" denir.  EF kullanan geliştirici LINQ kullanarak 
 #### ENTITY DATA MODEL
 Entity(varlık) 3 bölümden oluşur.
 
- 1. Conceptual Model 
- 2. 
+ 1.  Conceptual Model 
+	   - Model sınıflarımız ve bu sınıfların ilişkileri yer alacaktır.
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU0NTM1MjA2MiwtMTk1NzIwNDE4MiwtMT
+eyJoaXN0b3J5IjpbLTQ0MzAwMDQ5MSwtMTk1NzIwNDE4MiwtMT
 E0NDgwMDA0NCwtNDUzNDUwMjcyLDE2NTY0ODEwNTEsMTUzNDYx
 NDczNiwxMjc2NjgzNTU2LC0xODAxNTk3MTQzXX0=
 -->
