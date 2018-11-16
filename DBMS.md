@@ -117,11 +117,11 @@ Yukarıdaki ekran görüntüsünde gördüğünüz gibi, Öğrenciler ve Sınıf
 
 Sütun adları ve veri türü, ilgili alan adı sınıflarının özellikleriyle eşleşir.(Classlarda tanımladığımız değişkenker)
 
-Ayrıca, StudentId ve GradeId'i PK'lar (birincil anahtarlar) haline getirdi ve FK (yabancı anahtar) olarak Grade_GradeId sütununu yarattı.
+Ayrıca, StudentId ve GradeId'i primarykey (birincil anahtarlar) haline getirdi ve foregin key (yabancı anahtar) olarak Grade_GradeId sütununu yarattı.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MzIyNDk2MDQsLTIwNjI4NzE1ODcsMT
-UyMDgxMDcxMCwtMTk1NzIwNDE4MiwtMTE0NDgwMDA0NCwtNDUz
-NDUwMjcyLDE2NTY0ODEwNTEsMTUzNDYxNDczNiwxMjc2NjgzNT
-U2LC0xODAxNTk3MTQzXX0=
+eyJoaXN0b3J5IjpbMjA0ODQwMDc1MCwtMjA2Mjg3MTU4NywxNT
+IwODEwNzEwLC0xOTU3MjA0MTgyLC0xMTQ0ODAwMDQ0LC00NTM0
+NTAyNzIsMTY1NjQ4MTA1MSwxNTM0NjE0NzM2LDEyNzY2ODM1NT
+YsLTE4MDE1OTcxNDNdfQ==
 -->
